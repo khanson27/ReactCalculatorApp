@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Introduction
+This app was made to create an inbrowser calculator app using React and mui components.
+- In order to edit this code you must run npm install in order to install all required dependencies. 
+- To run the app in browser type npm start in the terminal.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to use
+You can either type or press the buttons to interact with the app, this is for ease of use. You need to type or press the relevant number, an operator, another number and equals.
 
-## Available Scripts
+## Assumptions
+- When starting this app I made the assumption that the app must have basic functionality of addition, subtraction, multiplication and subtraction. 
+- I have also added the ability to create decimals and to clear after a completed calculation. 
+- The display also shows the calculation as it occurs, this is slightly different than a typical browser or web calculator, it was a personal preference.
+- This app also includes key bindings as the app then can be used by clicking the numbers or typing them. 
+- Enter and backspace can both be used to evaluate the calculation and delete respectively.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Limitations
+- I have not included much styling to the app and this is something that I will improve as time goes on, such as making the calculator itself larger, and making the buttons accessible to screen readers. 
+- Due to time constraints I did not do wireframing, which would have assisted in my planning of the app as well as future developments. 
+- A limitation is that you can only have two parameters at a time, so in future I would implement parenthesis as well as intrinsic BODMAS without parenthesis. 
+- The clear functionality also does not allow you to just clear one element but rather clears the entire input, I would add a backspace function to the app and amend the keybindings to reflect this. 
+- I would also include a percentage option so that you can work out percentages without converting to decimal. 
+- As I do not have a lot of experience with scientific functions, I would like to research and develop a scientific calculator option. 
